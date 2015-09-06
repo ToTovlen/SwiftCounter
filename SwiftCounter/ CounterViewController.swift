@@ -145,6 +145,7 @@ class CounterViewController:UIViewController{
             timer?.invalidate()
             timer=nil
             return
+            
         }
         remainingSeconds-=1
     }
