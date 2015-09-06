@@ -82,6 +82,7 @@ class CounterViewController:UIViewController{
     }
     
     func timeButtonTapped(sender:UIButton){
+        println("aaa")
         let (_,seconds)=timeButtonInfos[sender.tag]
         remainingSeconds=seconds
     }
@@ -145,7 +146,6 @@ class CounterViewController:UIViewController{
             timer?.invalidate()
             timer=nil
             return
-            
         }
         remainingSeconds-=1
     }
