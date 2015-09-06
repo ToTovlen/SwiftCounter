@@ -15,6 +15,7 @@
 		EC4BEFEA1B93F42400BA0279 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4BEFE91B93F42400BA0279 /* Images.xcassets */; };
 		EC4BEFED1B93F42400BA0279 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4BEFEB1B93F42400BA0279 /* LaunchScreen.xib */; };
 		EC4BEFF91B93F42400BA0279 /* SwiftCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BEFF81B93F42400BA0279 /* SwiftCounterTests.swift */; };
+		EC4BF0031B93F58400BA0279 /*  CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4BF0021B93F58400BA0279 /*  CounterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		EC4BEFF21B93F42400BA0279 /* SwiftCounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftCounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4BEFF71B93F42400BA0279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC4BEFF81B93F42400BA0279 /* SwiftCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCounterTests.swift; sourceTree = "<group>"; };
+		EC4BF0021B93F58400BA0279 /*  CounterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = " CounterViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				EC4BEFEB1B93F42400BA0279 /* LaunchScreen.xib */,
 				EC4BEFDF1B93F42400BA0279 /* SwiftCounter.xcdatamodeld */,
 				EC4BEFDB1B93F42400BA0279 /* Supporting Files */,
+				EC4BF0021B93F58400BA0279 /*  CounterViewController.swift */,
 			);
 			path = SwiftCounter;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				EC4BEFE11B93F42400BA0279 /* SwiftCounter.xcdatamodeld in Sources */,
 				EC4BEFDE1B93F42400BA0279 /* AppDelegate.swift in Sources */,
+				EC4BF0031B93F58400BA0279 /*  CounterViewController.swift in Sources */,
 				EC4BEFE31B93F42400BA0279 /* MasterViewController.swift in Sources */,
 				EC4BEFE51B93F42400BA0279 /* DetailViewController.swift in Sources */,
 			);
