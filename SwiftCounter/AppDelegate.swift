@@ -24,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.backgroundColor=UIColor.whiteColor()
         self.window!.rootViewController=CounterViewController()
         self.window?.makeKeyAndVisible()
+        
+        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound | UIUserNotificationType.Alert | UIUserNotificationType.Badge, categories: nil))
         return true
     }
 
